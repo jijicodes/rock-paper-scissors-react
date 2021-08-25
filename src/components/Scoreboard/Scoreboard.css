@@ -1,0 +1,35 @@
+.scoreboardContainer {
+  margin-top: 30px;
+  border: 3px solid white;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 60px;
+  justify-content: center;
+}
+
+.scoreBoardLabel {
+  position: absolute;
+  top: calc(50% - 0.75rem);
+  width: 80px;
+  height: 1.5rem;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(240, 92, 117);
+  color: white;
+}
+
+.labelu {
+  left: -40px;
+}
+
+.labelc {
+  right: -40px;
+}
+
+.scoreboard {
+  font-size: 24px;
+  color: white;
+}
